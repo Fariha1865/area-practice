@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible_flex</title>
+
+    <style>
+
+        .container_1{
+            display: flex;
+            gap: 20px;
+        }
+        .item_1, .item_2{
+            background-color: bisque;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid blue;
+            border-radius: 5px;
+        }
+
+        .container_2{
+            display: flex;
+            gap: 13px;
+        }
+        .item{
+            background-color: rgb(208, 168, 245);
+            border: 2px dotted blue;
+
+        }
+
+        @media  (max-width: 676px) {
+            .container_1{
+                flex-direction: column-reverse;
+                
+            }
+
+            .container_2{
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container_1">
+        <div class="item_1">
+            <h1>item_1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse soluta aliquid inventore, ipsa animi beatae accusamus ipsum nulla sunt sed cupiditate non sit numquam quia ipsam culpa fuga. Cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quam blanditiis perferendis earum laborum velit sed voluptas recusandae suscipit facere nostrum animi inventore reiciendis, nemo ipsum rerum id expedita facilis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse soluta aliquid inventore, ipsa animi beatae accusamus ipsum nulla sunt sed cupiditate non sit numquam quia ipsam culpa fuga. Cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quam blanditiis perferendis earum laborum velit sed voluptas recusandae suscipit facere nostrum animi inventore reiciendis, nemo ipsum rerum id expedita facilis.</p>
+        </div>
+        <div class="item_2">
+            <h1>item_2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse soluta aliquid inventore, ipsa animi beatae accusamus ipsum nulla sunt sed cupiditate non sit numquam quia ipsam culpa fuga. Cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quam blanditiis perferendis earum laborum velit sed voluptas recusandae suscipit facere nostrum animi inventore reiciendis, nemo ipsum rerum id expedita facilis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse soluta aliquid inventore, ipsa animi beatae accusamus ipsum nulla sunt sed cupiditate non sit numquam quia ipsam culpa fuga. Cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quam blanditiis perferendis earum laborum velit sed voluptas recusandae suscipit facere nostrum animi inventore reiciendis, nemo ipsum rerum id expedita facilis.</p>
+        </div>
+    </div>
+
+    <div class="container_2">
+        <div class="item">
+            <h1>item_1</h1>
+        </div>
+        <div class="item">
+            <h1>item_2</h1>
+        </div>
+        <div class="item">
+            <h1>item_3</h1>
+        </div>
+        <div class="item">
+            <h1>item_4</h1>
+        </div>
+        <div class="item">
+            <h1>item_5</h1>
+        </div>
+        <div class="item">
+            <h1>item_6</h1>
+        </div>
+        <div class="item">
+            <h1>item_7</h1>
+        </div>
+        <div class="item">
+            <h1>item_8</h1>
+        </div>
+        <div class="item">
+            <h1>item_9</h1>
+        </div>
+        <div class="item">
+            <h1>item_10</h1>
+        </div>
+        <div class="item">
+            <h1>item_11</h1>
+        </div>
+        <div class="item">
+            <h1>item_12</h1>
+        </div>
+    </div>
+</body>
+</html>
